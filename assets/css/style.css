@@ -31,3 +31,18 @@ nav {
     padding-bottom: auto;
     float: inline-start;
 }
+
+#timezonetable {
+    position: center;
+}
+
+.timeclock {
+    height: 500px;
+    width: 700px;
+    position: canter;
+}
+
+#time {
+    height: 500px;
+    width: 850px;
+}
