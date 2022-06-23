@@ -114,6 +114,36 @@ hr {
 
 #form {
     height: 300px;
-    position: relative;
     margin: auto;
+    width: 400px;
+    border-style: ridge;
+}
+
+#form2 {
+    margin: auto;
+    padding: auto;
+}
+
+#clientname {
+    border-radius: 10%;
+}
+
+#messagebox {
+    height: 70px;
+    width: auto;
+    border-radius: 5%;
+}
+
+#submit {
+    height: 40px;
+    width: 100px;
+    background-color: blueviolet;
+    font-size: 25px;
+    border-radius: 10%;
+    color: white;
+}
+
+#submit:hover {
+    background-color: beige;
+    color: black;
 }
