@@ -1,12 +1,12 @@
 new TradingView.widget({
     "autosize": true,
-    "symbol": "EURUSD",
+    "symbol": "XAUUSD",
     "interval": "D",
     "timezone": "Etc/UTC",
     "theme": "light",
     "style": "1",
     "locale": "en",
-    "toolbar_bg": "#f1f3f6",
+    "toolbar_bg": "#8a2be2",
     "enable_publishing": false,
     "allow_symbol_change": true,
     "container_id": "tradingview_10328"
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const input = document.getElementById("messagebox");
         const input2 = document.getElementById("clientname");
         const newTask = document.createElement('li');
-        const newTask2 = document.createElement('h3')
+        const newTask2 = document.createElement('h3');
         const deleteBtn = document.createElement('button');
 
         newTask.textContent = `${input.value}       `;

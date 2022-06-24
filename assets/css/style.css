@@ -113,10 +113,17 @@ hr {
 }
 
 #form {
-    height: 300px;
+    height: 600px;
     margin: auto;
     width: 400px;
     border-style: ridge;
+    background-blend-mode: darken;
+}
+
+#formsec {
+    background: scroll;
+    background-image: url(/assets/images/PngItem_777728.png);
+    background-size: cover;
 }
 
 #form2 {
@@ -163,4 +170,8 @@ hr {
 
 p {
     font-size: 20px;
+}
+
+label {
+    color: blueviolet;
 }
