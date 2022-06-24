@@ -175,3 +175,8 @@ p {
 label {
     color: blueviolet;
 }
+
+#lists {
+    font-size: 20px;
+    font-style: italic;
+}
