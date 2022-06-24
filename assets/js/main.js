@@ -1,0 +1,44 @@
+new TradingView.widget({
+    "autosize": true,
+    "symbol": "EURUSD",
+    "interval": "D",
+    "timezone": "Etc/UTC",
+    "theme": "light",
+    "style": "1",
+    "locale": "en",
+    "toolbar_bg": "#f1f3f6",
+    "enable_publishing": false,
+    "allow_symbol_change": true,
+    "container_id": "tradingview_10328"
+});
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const submit = document.querySelector('form');
+    submit.addEventListener("submit", (e) => {
+        e.preventDefault()
+        createToDo()
+        submit.reset()
+    })
+
+    function createToDo() {
+        const input = document.getElementById("messagebox");
+        const input2 = document.getElementById("clientname");
+        const newTask = document.createElement('li');
+        const newTask2 = document.createElement('h3')
+        const deleteBtn = document.createElement('button');
+
+        newTask.textContent = `${input.value}       `;
+        document.getElementById('commentarea').appendChild(newTask);
+
+        newTask2.textContent = `${input2.value}       `;
+        document.getElementById('commentname').appendChild(newTask2);
+
+
+        deleteBtn.textContent = "X";
+        newTask.appendChild(deleteBtn);
+        deleteBtn.addEventListener('click', () => newTask.remove());
+        deleteBtn.addEventListener('click', () => newTask2.remove());
+
+    }
+});

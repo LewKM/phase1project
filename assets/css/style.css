@@ -2,13 +2,13 @@ body {
     margin: auto;
     width: 100%;
     height: 100%;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Arial Narrow';
     box-sizing: border-box;
 }
 
 main {
     padding-left: 10%;
-    padding-right: 20%;
+    padding-right: 10%;
 }
 
 header {
@@ -150,4 +150,17 @@ hr {
 
 #head {
     font: "Old English";
+}
+
+
+/* #api {
+    height: 450px;
+} */
+
+#tradingview_10328 {
+    height: 600px;
+}
+
+p {
+    font-size: 20px;
 }
