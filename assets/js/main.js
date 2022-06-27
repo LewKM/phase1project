@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     submit.addEventListener("submit", (e) => {
         e.preventDefault()
         createToDo()
+        deleteTodo()
         submit.reset()
     })
 
@@ -26,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const input2 = document.getElementById("clientname");
         const newTask = document.createElement('li');
         const newTask2 = document.createElement('h3');
-        const deleteBtn = document.createElement('button');
+
 
         newTask.textContent = `${input.value}       `;
         document.getElementById('commentarea').appendChild(newTask);
@@ -35,10 +36,15 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById('commentname').appendChild(newTask2);
 
 
+    }
+
+    function deleteTodo() {
+        const deleteBtn = document.createElement('button');
+
+
         deleteBtn.textContent = "X";
         newTask.appendChild(deleteBtn);
         deleteBtn.addEventListener('click', () => newTask.remove());
         deleteBtn.addEventListener('click', () => newTask2.remove());
-
     }
-});
+})
