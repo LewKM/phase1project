@@ -1,8 +1,8 @@
 # Sperizon-Forex
  ## Lewis Mwendwa Kathembe
 ## Screenshot
- ![image](./assets/images/Screenshot%20from%202022-06-24%2007-50-57.png)
- ![image](./assets/images/Screenshot%20from%202022-06-24%2007-51-06.png)
+ ![image](./assets/images/Screenshot%20from%202022-06-27%2010-07-07.png)
+ ![image](./assets/images/Screenshot%20from%202022-06-27%2010-07-16.png)
  ## Table of Content
  - [Description](#description)
  - [Features](#features)
