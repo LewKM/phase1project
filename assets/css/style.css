@@ -4,7 +4,7 @@ body {
     height: 100%;
     font-family: 'Arial Narrow';
     box-sizing: border-box;
-    background-image: url("../assets/images/1304041.jpg");
+    background-image: url(../assets/images/1304041.jpg);
     background-attachment: fixed;
     color: white;
 }
